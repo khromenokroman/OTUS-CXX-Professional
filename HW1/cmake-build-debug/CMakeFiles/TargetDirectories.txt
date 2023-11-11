@@ -1,0 +1,12 @@
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/helloworld_cli.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/helloworld.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/test_version.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/package.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/package_source.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/test.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/list_install_components.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/install.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/install/local.dir
+/tmp/OTUS-C-Professional/HW1/cmake-build-debug/CMakeFiles/install/strip.dir
