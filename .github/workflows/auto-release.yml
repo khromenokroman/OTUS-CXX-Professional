@@ -16,11 +16,9 @@ jobs:
         with:
           submodules: true
       - run: sudo apt-get update && sudo apt-get install cmake libboost-test-dev -y
-      - run: cmake HW1 -DPATCH_VERSION=${{ github.run_number }}
+      - run: cmake HW2 -DPATCH_VERSION=${{ github.run_number }}
       - run: cmake --build .
       - run: cmake --build . --target package
-      - run: pwd
-      - run: ls -la
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -37,8 +35,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          run: pwd
-          run: ls -la
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./ip_filter-0.0.${{ github.run_number }}-Linux.deb
           asset_name: ip_filter-0.0.${{ github.run_number }}-Linux.deb
