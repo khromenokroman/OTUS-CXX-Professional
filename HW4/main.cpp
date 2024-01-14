@@ -1,8 +1,3 @@
-/*!
-@file
-Homework 04 for OTUS course: C++ Developoer Professional.
-*/
-
 #include <iostream>
 #include <vector>
 #include <list>
